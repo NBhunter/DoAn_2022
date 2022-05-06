@@ -13,6 +13,7 @@ using QuanLyBenhNhanNoiTru.DataTransferObject;
 using QuanLyBenhNhanNoiTru.BusinessLogicLayers;
 using System.Threading;
 
+
 namespace QuanLyBenhNhanNoiTru
 {
     public partial class frm_Login : Form
@@ -58,6 +59,8 @@ namespace QuanLyBenhNhanNoiTru
         private void frm_Login_Load(object sender, EventArgs e)
         {
             pgLoad.Visible = false;
+
+            txtmk.UseSystemPasswordChar = PasswordPropertyTextAttribute.No.Password;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
@@ -78,6 +81,46 @@ namespace QuanLyBenhNhanNoiTru
                 
                 
             }
+        }
+
+        /*private void checkButton1_CheckedChanged(object sender, EventArgs e)
+        {
+            if (checkButton1.Checked)
+            {
+                //Hides Textbox password
+                txtmk.UseSystemPasswordChar = PasswordPropertyTextAttribute.Yes.Password;
+
+
+                checkButton1.Appearance.BackColor = Color.FromArgb(242, 106, 0);
+                checkButton1.Appearance.BackColor2 = Color.FromArgb(242, 106, 0);
+                checkButton1.Appearance.GetImage = 
+            }
+            else
+            {
+                txtmk.UseSystemPasswordChar = PasswordPropertyTextAttribute.No.Password;
+                //eckButton1.BackColor = Color.DodgerBlue;
+
+                checkButton1.Appearance.BackColor = Color.FromArgb(242, 106, 0);
+                checkButton1.Appearance.BackColor2 = Color.FromArgb(242, 106, 0);
+
+            }
+        }*/
+
+        private void simpleButton1_Click(object sender, EventArgs e)
+        {
+            txtmk.UseSystemPasswordChar = PasswordPropertyTextAttribute.Yes.Password;
+            
+            
+            simpleButton1.Hide();
+            simpleButton2.Show();
+
+        }
+
+        private void simpleButton2_Click(object sender, EventArgs e)
+        {
+            txtmk.UseSystemPasswordChar = PasswordPropertyTextAttribute.No.Password;
+            simpleButton2.Hide();
+            simpleButton1.Show();
         }
     }
 }

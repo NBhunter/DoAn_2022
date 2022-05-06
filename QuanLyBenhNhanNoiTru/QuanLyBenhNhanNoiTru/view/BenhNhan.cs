@@ -29,7 +29,8 @@ namespace QuanLyBenhNhanNoiTru.view
             List<BenhNhan_DTO> lstbenhnhan = BenhNhan_BUS.LayDanhSach();
             dgvDanhSachBN.DataSource = lstbenhnhan;
             //bhyt
-
+       //     List<BHYT_DTO> lstbhty = BHYT_BUS.LayDanhSach(txtmabenhnhan.Text.ToString());
+         //   dgvbhyt.DataSource = lstbhty;
             //danh sach ben an
         }
 
@@ -37,6 +38,11 @@ namespace QuanLyBenhNhanNoiTru.view
         {
             List<BenhNhan_DTO> lstbenhnhan = BenhNhan_BUS.TimBenhNhan(txtTimTen.Text);
             dgvDanhSachBN.DataSource = lstbenhnhan;
+        }
+
+        private void btnrefesh_Click(object sender, EventArgs e)
+        {
+            HienThiLenDaTa();
         }
     }
 }

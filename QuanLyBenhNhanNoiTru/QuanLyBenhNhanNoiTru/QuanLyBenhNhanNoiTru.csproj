@@ -59,6 +59,7 @@
   <ItemGroup>
     <Compile Include="BusinessLogicLayers\BenhNhan_BUS.cs" />
     <Compile Include="BusinessLogicLayers\Benh_BUS.cs" />
+    <Compile Include="BusinessLogicLayers\BHYT_BUS.cs" />
     <Compile Include="BusinessLogicLayers\Login_BUS.cs" />
     <Compile Include="ConnectToSQL.cs" />
     <Compile Include="DataAccessLayers\BenhNhan_DAO.cs" />

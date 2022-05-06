@@ -32,11 +32,13 @@ namespace QuanLyBenhNhanNoiTru
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(frm_Login));
             this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.simpleButton1 = new DevExpress.XtraEditors.SimpleButton();
             this.btnLogin = new DevExpress.XtraEditors.SimpleButton();
             this.label2 = new System.Windows.Forms.Label();
             this.txtmk = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
             this.txttk = new System.Windows.Forms.TextBox();
+            this.simpleButton2 = new DevExpress.XtraEditors.SimpleButton();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.pgLoad = new System.Windows.Forms.ProgressBar();
             this.pictureEdit1 = new DevExpress.XtraEditors.PictureEdit();
@@ -49,23 +51,40 @@ namespace QuanLyBenhNhanNoiTru
             // 
             // groupControl1
             // 
+            this.groupControl1.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupControl1.Appearance.Options.UseFont = true;
+            this.groupControl1.AppearanceCaption.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.groupControl1.AppearanceCaption.Options.UseFont = true;
             this.groupControl1.AutoSize = true;
             this.groupControl1.CaptionLocation = DevExpress.Utils.Locations.Top;
             this.groupControl1.ContentImageAlignment = System.Drawing.ContentAlignment.TopCenter;
+            this.groupControl1.Controls.Add(this.simpleButton1);
             this.groupControl1.Controls.Add(this.btnLogin);
             this.groupControl1.Controls.Add(this.label2);
             this.groupControl1.Controls.Add(this.txtmk);
             this.groupControl1.Controls.Add(this.label1);
             this.groupControl1.Controls.Add(this.txttk);
+            this.groupControl1.Controls.Add(this.simpleButton2);
             this.groupControl1.GroupStyle = DevExpress.Utils.GroupStyle.Card;
-            this.groupControl1.Location = new System.Drawing.Point(376, 12);
+            this.groupControl1.Location = new System.Drawing.Point(343, 29);
             this.groupControl1.Name = "groupControl1";
-            this.groupControl1.Size = new System.Drawing.Size(412, 294);
+            this.groupControl1.Size = new System.Drawing.Size(445, 294);
             this.groupControl1.TabIndex = 2;
             this.groupControl1.Text = "Đăng nhập";
             // 
+            // simpleButton1
+            // 
+            this.simpleButton1.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton1.ImageOptions.Image")));
+            this.simpleButton1.Location = new System.Drawing.Point(385, 111);
+            this.simpleButton1.Name = "simpleButton1";
+            this.simpleButton1.Size = new System.Drawing.Size(42, 29);
+            this.simpleButton1.TabIndex = 6;
+            this.simpleButton1.Click += new System.EventHandler(this.simpleButton1_Click);
+            // 
             // btnLogin
             // 
+            this.btnLogin.Appearance.Font = new System.Drawing.Font("Tahoma", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.btnLogin.Appearance.Options.UseFont = true;
             this.btnLogin.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnLogin.ImageOptions.SvgImage")));
             this.btnLogin.Location = new System.Drawing.Point(136, 206);
             this.btnLogin.Name = "btnLogin";
@@ -77,9 +96,9 @@ namespace QuanLyBenhNhanNoiTru
             // label2
             // 
             this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(35, 108);
+            this.label2.Location = new System.Drawing.Point(13, 116);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(65, 17);
+            this.label2.Size = new System.Drawing.Size(94, 24);
             this.label2.TabIndex = 3;
             this.label2.Text = "Mật Khẩu";
             // 
@@ -87,16 +106,16 @@ namespace QuanLyBenhNhanNoiTru
             // 
             this.txtmk.Location = new System.Drawing.Point(117, 108);
             this.txtmk.Name = "txtmk";
-            this.txtmk.PasswordChar = '*';
-            this.txtmk.Size = new System.Drawing.Size(262, 23);
+            this.txtmk.Size = new System.Drawing.Size(262, 32);
             this.txtmk.TabIndex = 2;
+            this.txtmk.UseSystemPasswordChar = true;
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(35, 56);
+            this.label1.Location = new System.Drawing.Point(13, 64);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(67, 17);
+            this.label1.Size = new System.Drawing.Size(98, 24);
             this.label1.TabIndex = 1;
             this.label1.Text = "Tài khoản";
             // 
@@ -104,8 +123,17 @@ namespace QuanLyBenhNhanNoiTru
             // 
             this.txttk.Location = new System.Drawing.Point(117, 56);
             this.txttk.Name = "txttk";
-            this.txttk.Size = new System.Drawing.Size(262, 23);
+            this.txttk.Size = new System.Drawing.Size(262, 32);
             this.txttk.TabIndex = 0;
+            // 
+            // simpleButton2
+            // 
+            this.simpleButton2.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("simpleButton2.ImageOptions.Image")));
+            this.simpleButton2.Location = new System.Drawing.Point(385, 111);
+            this.simpleButton2.Name = "simpleButton2";
+            this.simpleButton2.Size = new System.Drawing.Size(42, 29);
+            this.simpleButton2.TabIndex = 7;
+            this.simpleButton2.Click += new System.EventHandler(this.simpleButton2_Click);
             // 
             // timer1
             // 
@@ -114,9 +142,9 @@ namespace QuanLyBenhNhanNoiTru
             // 
             // pgLoad
             // 
-            this.pgLoad.Location = new System.Drawing.Point(376, 319);
+            this.pgLoad.Location = new System.Drawing.Point(343, 329);
             this.pgLoad.Name = "pgLoad";
-            this.pgLoad.Size = new System.Drawing.Size(412, 24);
+            this.pgLoad.Size = new System.Drawing.Size(445, 24);
             this.pgLoad.TabIndex = 3;
             // 
             // pictureEdit1
@@ -159,12 +187,14 @@ namespace QuanLyBenhNhanNoiTru
         private DevExpress.XtraEditors.GroupControl groupControl1;
         private DevExpress.XtraEditors.SimpleButton btnLogin;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox txtmk;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.TextBox txttk;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.ProgressBar pgLoad;
         private DevExpress.XtraEditors.PictureEdit pictureEdit1;
         private DevExpress.Utils.Behaviors.BehaviorManager behaviorManager1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton1;
+        private DevExpress.XtraEditors.SimpleButton simpleButton2;
+        private System.Windows.Forms.TextBox txtmk;
     }
 }

@@ -63,9 +63,7 @@ namespace QuanLyBenhNhanNoiTru.view
             this.label15 = new System.Windows.Forms.Label();
             this.txtdenghi = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
-            this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.dgvbhyt = new System.Windows.Forms.DataGridView();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.dgvDanhSachBN = new System.Windows.Forms.DataGridView();
             this.groupBox7 = new System.Windows.Forms.GroupBox();
             this.btnTim = new DevExpress.XtraEditors.SimpleButton();
@@ -75,19 +73,23 @@ namespace QuanLyBenhNhanNoiTru.view
             this.btnSua = new DevExpress.XtraEditors.SimpleButton();
             this.btnLuu = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton5 = new DevExpress.XtraEditors.SimpleButton();
-            this.simpleButton6 = new DevExpress.XtraEditors.SimpleButton();
+            this.btnrefesh = new DevExpress.XtraEditors.SimpleButton();
             this.simpleButton7 = new DevExpress.XtraEditors.SimpleButton();
             this.btnIn = new DevExpress.XtraEditors.SimpleButton();
+            this.groupControl1 = new DevExpress.XtraEditors.GroupControl();
+            this.groupControl2 = new DevExpress.XtraEditors.GroupControl();
             this.groupBox1.SuspendLayout();
             this.groupBox2.SuspendLayout();
             this.groupBox6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvdsbenh)).BeginInit();
             this.groupBox3.SuspendLayout();
-            this.groupBox5.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvbhyt)).BeginInit();
-            this.groupBox4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachBN)).BeginInit();
             this.groupBox7.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).BeginInit();
+            this.groupControl1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).BeginInit();
+            this.groupControl2.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -417,44 +419,24 @@ namespace QuanLyBenhNhanNoiTru.view
             this.label17.TabIndex = 4;
             this.label17.Text = "Ngày khám";
             // 
-            // groupBox5
-            // 
-            this.groupBox5.Controls.Add(this.dgvbhyt);
-            this.groupBox5.Location = new System.Drawing.Point(1098, 247);
-            this.groupBox5.Name = "groupBox5";
-            this.groupBox5.Size = new System.Drawing.Size(431, 252);
-            this.groupBox5.TabIndex = 22;
-            this.groupBox5.TabStop = false;
-            this.groupBox5.Text = "Danh sách BHYT";
-            // 
             // dgvbhyt
             // 
             this.dgvbhyt.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvbhyt.Location = new System.Drawing.Point(0, 21);
+            this.dgvbhyt.Location = new System.Drawing.Point(17, 33);
             this.dgvbhyt.Name = "dgvbhyt";
             this.dgvbhyt.RowHeadersWidth = 51;
             this.dgvbhyt.RowTemplate.Height = 24;
-            this.dgvbhyt.Size = new System.Drawing.Size(425, 225);
+            this.dgvbhyt.Size = new System.Drawing.Size(482, 225);
             this.dgvbhyt.TabIndex = 0;
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.dgvDanhSachBN);
-            this.groupBox4.Location = new System.Drawing.Point(4, 247);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(1088, 258);
-            this.groupBox4.TabIndex = 33;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Danh sách bệnh nhân";
             // 
             // dgvDanhSachBN
             // 
             this.dgvDanhSachBN.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvDanhSachBN.Location = new System.Drawing.Point(9, 21);
+            this.dgvDanhSachBN.Location = new System.Drawing.Point(5, 28);
             this.dgvDanhSachBN.Name = "dgvDanhSachBN";
             this.dgvDanhSachBN.RowHeadersWidth = 51;
             this.dgvDanhSachBN.RowTemplate.Height = 24;
-            this.dgvDanhSachBN.Size = new System.Drawing.Size(1073, 225);
+            this.dgvDanhSachBN.Size = new System.Drawing.Size(1092, 225);
             this.dgvDanhSachBN.TabIndex = 0;
             // 
             // groupBox7
@@ -528,12 +510,15 @@ namespace QuanLyBenhNhanNoiTru.view
             this.simpleButton5.Size = new System.Drawing.Size(135, 39);
             this.simpleButton5.TabIndex = 49;
             // 
-            // simpleButton6
+            // btnrefesh
             // 
-            this.simpleButton6.Location = new System.Drawing.Point(1325, 134);
-            this.simpleButton6.Name = "simpleButton6";
-            this.simpleButton6.Size = new System.Drawing.Size(135, 39);
-            this.simpleButton6.TabIndex = 48;
+            this.btnrefesh.ImageOptions.Image = ((System.Drawing.Image)(resources.GetObject("btnrefesh.ImageOptions.Image")));
+            this.btnrefesh.Location = new System.Drawing.Point(1325, 134);
+            this.btnrefesh.Name = "btnrefesh";
+            this.btnrefesh.Size = new System.Drawing.Size(135, 39);
+            this.btnrefesh.TabIndex = 48;
+            this.btnrefesh.Text = "Làm Mới";
+            this.btnrefesh.Click += new System.EventHandler(this.btnrefesh_Click);
             // 
             // simpleButton7
             // 
@@ -553,12 +538,32 @@ namespace QuanLyBenhNhanNoiTru.view
             this.btnIn.TabIndex = 46;
             this.btnIn.Text = "In";
             // 
+            // groupControl1
+            // 
+            this.groupControl1.Controls.Add(this.dgvDanhSachBN);
+            this.groupControl1.Location = new System.Drawing.Point(10, 247);
+            this.groupControl1.Name = "groupControl1";
+            this.groupControl1.Size = new System.Drawing.Size(1142, 258);
+            this.groupControl1.TabIndex = 50;
+            this.groupControl1.Text = "Thông Tin bệnh nhân";
+            // 
+            // groupControl2
+            // 
+            this.groupControl2.Controls.Add(this.dgvbhyt);
+            this.groupControl2.Location = new System.Drawing.Point(1158, 247);
+            this.groupControl2.Name = "groupControl2";
+            this.groupControl2.Size = new System.Drawing.Size(519, 258);
+            this.groupControl2.TabIndex = 51;
+            this.groupControl2.Text = "BHYT";
+            // 
             // BenhNhan
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.groupControl2);
+            this.Controls.Add(this.groupControl1);
             this.Controls.Add(this.simpleButton5);
-            this.Controls.Add(this.simpleButton6);
+            this.Controls.Add(this.btnrefesh);
             this.Controls.Add(this.simpleButton7);
             this.Controls.Add(this.btnIn);
             this.Controls.Add(this.btnLuu);
@@ -566,12 +571,10 @@ namespace QuanLyBenhNhanNoiTru.view
             this.Controls.Add(this.btnXoa);
             this.Controls.Add(this.btnThem);
             this.Controls.Add(this.groupBox7);
-            this.Controls.Add(this.groupBox4);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.groupBox3);
-            this.Controls.Add(this.groupBox5);
             this.Name = "BenhNhan";
             this.Size = new System.Drawing.Size(1744, 779);
             this.Load += new System.EventHandler(this.BenhNhan_Load);
@@ -583,12 +586,14 @@ namespace QuanLyBenhNhanNoiTru.view
             ((System.ComponentModel.ISupportInitialize)(this.dgvdsbenh)).EndInit();
             this.groupBox3.ResumeLayout(false);
             this.groupBox3.PerformLayout();
-            this.groupBox5.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvbhyt)).EndInit();
-            this.groupBox4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvDanhSachBN)).EndInit();
             this.groupBox7.ResumeLayout(false);
             this.groupBox7.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl1)).EndInit();
+            this.groupControl1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.groupControl2)).EndInit();
+            this.groupControl2.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -628,9 +633,7 @@ namespace QuanLyBenhNhanNoiTru.view
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.TextBox txtdenghi;
         private System.Windows.Forms.Label label17;
-        private System.Windows.Forms.GroupBox groupBox5;
         private System.Windows.Forms.DataGridView dgvbhyt;
-        private System.Windows.Forms.GroupBox groupBox4;
         private System.Windows.Forms.DataGridView dgvDanhSachBN;
         private System.Windows.Forms.GroupBox groupBox7;
         private System.Windows.Forms.TextBox txtTimTen;
@@ -640,8 +643,10 @@ namespace QuanLyBenhNhanNoiTru.view
         private DevExpress.XtraEditors.SimpleButton btnSua;
         private DevExpress.XtraEditors.SimpleButton btnLuu;
         private DevExpress.XtraEditors.SimpleButton simpleButton5;
-        private DevExpress.XtraEditors.SimpleButton simpleButton6;
+        private DevExpress.XtraEditors.SimpleButton btnrefesh;
         private DevExpress.XtraEditors.SimpleButton simpleButton7;
         private DevExpress.XtraEditors.SimpleButton btnIn;
+        private DevExpress.XtraEditors.GroupControl groupControl1;
+        private DevExpress.XtraEditors.GroupControl groupControl2;
     }
 }

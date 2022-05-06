@@ -12,9 +12,9 @@ namespace QuanLyBenhNhanNoiTru.DataAccessLayers
     class BHYT_DAO
     {
         static SqlConnection con;
-        public static List<BHYT_DTO> LayDanhSachBH()
+        public static List<BHYT_DTO> LayDanhSachBH(string mabenhnhan)
         {
-            string sTruyVan = "select * from BHYT";
+            string sTruyVan = "select * from BHYT where mabenhnhan = "+mabenhnhan;
             con = DataProvider.MoKetNoi();
             DataTable dt = DataProvider.TruyVanLayDuLieu(sTruyVan, con);
             if (dt.Rows.Count == 0)
