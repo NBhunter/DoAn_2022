@@ -1,0 +1,184 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{4C064B40-125F-470B-A499-860AC3242568}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>QuanLyBenhNhanNoiTru</RootNamespace>
+    <AssemblyName>QuanLyBenhNhanNoiTru</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="DevExpress.Data.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Data.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v19.1.Core, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v19.1, Version=19.1.4.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v19.2, Version=19.2.5.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessLogicLayers\BenhNhan_BUS.cs" />
+    <Compile Include="BusinessLogicLayers\Benh_BUS.cs" />
+    <Compile Include="BusinessLogicLayers\Login_BUS.cs" />
+    <Compile Include="ConnectToSQL.cs" />
+    <Compile Include="DataAccessLayers\BenhNhan_DAO.cs" />
+    <Compile Include="DataAccessLayers\Benh_DAO.cs" />
+    <Compile Include="DataAccessLayers\BHYT_DAO.cs" />
+    <Compile Include="DataAccessLayers\DataProvider.cs" />
+    <Compile Include="DataAccessLayers\Login_DAO.cs" />
+    <Compile Include="DataTransferObject\BenhNhan_DTO.cs" />
+    <Compile Include="DataTransferObject\Benh_DTO.cs" />
+    <Compile Include="DataTransferObject\BHYT_DTO.cs" />
+    <Compile Include="DataTransferObject\Login_DTO.cs" />
+    <Compile Include="frm_Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frm_Login.Designer.cs">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="main.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="main.Designer.cs">
+      <DependentUpon>main.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="view\Benh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\Benh.Designer.cs">
+      <DependentUpon>Benh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\BenhAn.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\BenhAn.Designer.cs">
+      <DependentUpon>BenhAn.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\BenhNhan.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\BenhNhan.Designer.cs">
+      <DependentUpon>BenhNhan.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\ChuyenNganh.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\ChuyenNganh.Designer.cs">
+      <DependentUpon>ChuyenNganh.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\NhanVien.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\NhanVien.Designer.cs">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </Compile>
+    <Compile Include="view\Thuoc.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="view\Thuoc.Designer.cs">
+      <DependentUpon>Thuoc.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="frm_Login.resx">
+      <DependentUpon>frm_Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="main.resx">
+      <DependentUpon>main.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Benh.resx">
+      <DependentUpon>Benh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\BenhAn.resx">
+      <DependentUpon>BenhAn.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\BenhNhan.resx">
+      <DependentUpon>BenhNhan.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\ChuyenNganh.resx">
+      <DependentUpon>ChuyenNganh.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\NhanVien.resx">
+      <DependentUpon>NhanVien.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="view\Thuoc.resx">
+      <DependentUpon>Thuoc.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-burger.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\menu-burger50x50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="control\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\hospital.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>

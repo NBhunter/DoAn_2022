@@ -1,0 +1,110 @@
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.csproj.AssemblyReference.cache
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.main.resources
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.Properties.Resources.resources
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.view.Benh.resources
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.view.BenhAn.resources
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.view.BenhNhan.resources
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.view.ChuyenNganh.resources
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.view.NhanVien.resources
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.view.Thuoc.resources
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.csproj.GenerateResource.cache
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.csproj.CoreCompileInputs.cache
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\QuanLyBenhNhanNoiTru.exe.config
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\QuanLyBenhNhanNoiTru.exe
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\QuanLyBenhNhanNoiTru.pdb
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.exe
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.pdb
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Data.v19.1.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Utils.v19.1.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Data.v19.1.xml
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Utils.v19.1.xml
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.csproj.CopyComplete
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.frm_Login.resources
+D:\study\LTQL\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.exe.licenses
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.csproj.AssemblyReference.cache
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.frm_Login.resources
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.main.resources
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.Properties.Resources.resources
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.view.Benh.resources
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.view.BenhAn.resources
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.view.BenhNhan.resources
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.view.ChuyenNganh.resources
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.view.NhanVien.resources
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.view.Thuoc.resources
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.csproj.GenerateResource.cache
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.exe.licenses
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.csproj.CoreCompileInputs.cache
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.exe
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.pdb
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\QuanLyBenhNhanNoiTru.exe.config
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\QuanLyBenhNhanNoiTru.exe
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\QuanLyBenhNhanNoiTru.pdb
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Data.v19.1.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Printing.v19.1.Core.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Sparkline.v19.1.Core.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Utils.v19.1.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.XtraEditors.v19.1.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Pdf.v19.1.Core.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Data.v19.1.xml
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Printing.v19.1.Core.xml
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Sparkline.v19.1.Core.xml
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Utils.v19.1.xml
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.XtraEditors.v19.1.xml
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\DevExpress.Pdf.v19.1.Core.xml
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\de\DevExpress.Data.v19.1.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\es\DevExpress.Data.v19.1.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ja\DevExpress.Data.v19.1.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ru\DevExpress.Data.v19.1.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\de\DevExpress.Printing.v19.1.Core.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\es\DevExpress.Printing.v19.1.Core.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ja\DevExpress.Printing.v19.1.Core.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ru\DevExpress.Printing.v19.1.Core.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\de\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\es\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ja\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ru\DevExpress.Sparkline.v19.1.Core.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\de\DevExpress.Utils.v19.1.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\es\DevExpress.Utils.v19.1.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ja\DevExpress.Utils.v19.1.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ru\DevExpress.Utils.v19.1.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\de\DevExpress.XtraEditors.v19.1.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\es\DevExpress.XtraEditors.v19.1.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ja\DevExpress.XtraEditors.v19.1.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ru\DevExpress.XtraEditors.v19.1.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\de\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\es\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ja\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\bin\Debug\ru\DevExpress.Pdf.v19.1.Core.resources.dll
+C:\Hoc Tap\DoAn_2022\QuanLyBenhNhanNoiTru\QuanLyBenhNhanNoiTru\obj\Debug\QuanLyBenhNhanNoiTru.csproj.CopyComplete
