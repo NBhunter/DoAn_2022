@@ -52,5 +52,11 @@ namespace QuanLyBenhNhanNoiTru.DataTransferObject
             get { return Tuoi; }
             set { Tuoi = value; }
         }
+        private string Sdt;
+        public string sdt
+        {
+            get { return Sdt; }
+            set { Sdt = value; }
+        }
     }
 }

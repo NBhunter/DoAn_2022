@@ -32,6 +32,7 @@ namespace QuanLyBenhNhanNoiTru
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(main));
             this.panelmain = new System.Windows.Forms.Panel();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnmenu = new DevExpress.XtraEditors.SimpleButton();
             this.panelmenu = new System.Windows.Forms.Panel();
             this.btnformChuyennganh = new System.Windows.Forms.Button();
             this.btnformbenhan = new System.Windows.Forms.Button();
@@ -41,7 +42,6 @@ namespace QuanLyBenhNhanNoiTru
             this.btnformbenhnhan = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
             this.lbLogin = new System.Windows.Forms.Label();
-            this.btnmenu = new DevExpress.XtraEditors.SimpleButton();
             this.panel2.SuspendLayout();
             this.panelmenu.SuspendLayout();
             this.panel1.SuspendLayout();
@@ -49,7 +49,10 @@ namespace QuanLyBenhNhanNoiTru
             // 
             // panelmain
             // 
+            this.panelmain.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Bottom | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
             this.panelmain.BackColor = System.Drawing.Color.LightSteelBlue;
+            this.panelmain.CausesValidation = false;
             this.panelmain.Location = new System.Drawing.Point(-2, 45);
             this.panelmain.Name = "panelmain";
             this.panelmain.Size = new System.Drawing.Size(1744, 785);
@@ -63,6 +66,21 @@ namespace QuanLyBenhNhanNoiTru
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(1744, 47);
             this.panel2.TabIndex = 1;
+            // 
+            // btnmenu
+            // 
+            this.btnmenu.Appearance.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
+            this.btnmenu.Appearance.Options.UseBackColor = true;
+            this.btnmenu.AppearancePressed.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnmenu.AppearancePressed.Options.UseBackColor = true;
+            this.btnmenu.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
+            this.btnmenu.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("btnmenu.ImageOptions.SvgImage")));
+            this.btnmenu.ImeMode = System.Windows.Forms.ImeMode.AlphaFull;
+            this.btnmenu.Location = new System.Drawing.Point(5, 0);
+            this.btnmenu.Name = "btnmenu";
+            this.btnmenu.Size = new System.Drawing.Size(94, 50);
+            this.btnmenu.TabIndex = 1;
+            this.btnmenu.Click += new System.EventHandler(this.btnmenu_Click);
             // 
             // panelmenu
             // 
@@ -155,21 +173,6 @@ namespace QuanLyBenhNhanNoiTru
             this.lbLogin.TabIndex = 0;
             this.lbLogin.Text = "label1";
             // 
-            // btnmenu
-            // 
-            this.btnmenu.Appearance.BackColor = System.Drawing.SystemColors.GradientActiveCaption;
-            this.btnmenu.Appearance.Options.UseBackColor = true;
-            this.btnmenu.AppearancePressed.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
-            this.btnmenu.AppearancePressed.Options.UseBackColor = true;
-            this.btnmenu.ImageOptions.Location = DevExpress.XtraEditors.ImageLocation.MiddleCenter;
-            this.btnmenu.ImageOptions.SvgImage = ((DevExpress.Utils.Svg.SvgImage)(resources.GetObject("simpleButton1.ImageOptions.SvgImage")));
-            this.btnmenu.ImeMode = System.Windows.Forms.ImeMode.AlphaFull;
-            this.btnmenu.Location = new System.Drawing.Point(5, 0);
-            this.btnmenu.Name = "btnmenu";
-            this.btnmenu.Size = new System.Drawing.Size(94, 50);
-            this.btnmenu.TabIndex = 1;
-            this.btnmenu.Click += new System.EventHandler(this.btnmenu_Click);
-            // 
             // main
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
@@ -183,6 +186,7 @@ namespace QuanLyBenhNhanNoiTru
             this.Name = "main";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Quản Lý Thông Tin Bệnh Viện";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
             this.Load += new System.EventHandler(this.main_Load);
             this.panel2.ResumeLayout(false);
             this.panelmenu.ResumeLayout(false);

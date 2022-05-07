@@ -32,6 +32,7 @@ namespace QuanLyBenhNhanNoiTru.DataAccessLayers
                 bn.diachi = dt.Rows[i]["diachi"].ToString();
                 bn.tuoi = dt.Rows[i]["tuoi"].ToString();
                 bn.dantoc = dt.Rows[i]["dantoc"].ToString();
+                bn.sdt = dt.Rows[i]["sdt"].ToString();
                 lstBenhNhan.Add(bn);
             }
             return lstBenhNhan;
@@ -60,5 +61,6 @@ namespace QuanLyBenhNhanNoiTru.DataAccessLayers
             }
             return lstbenhnhan;
         }
+     //   public static ThemBenhNhan(string TenBN, string gioitinh, string tuoi, string ngaysinh, string diachi)
     }
 }

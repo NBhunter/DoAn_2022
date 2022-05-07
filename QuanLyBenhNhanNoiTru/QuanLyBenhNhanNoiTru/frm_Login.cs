@@ -60,7 +60,7 @@ namespace QuanLyBenhNhanNoiTru
         {
             pgLoad.Visible = false;
 
-            txtmk.UseSystemPasswordChar = PasswordPropertyTextAttribute.No.Password;
+            txtmk.UseSystemPasswordChar = PasswordPropertyTextAttribute.Yes.Password;
         }
 
         private void timer1_Tick(object sender, EventArgs e)
